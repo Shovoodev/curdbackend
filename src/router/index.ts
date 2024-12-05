@@ -1,13 +1,13 @@
 import express from "express";
 import authentication from "./authentication";
 import users from "../../users";
-import expenses from './expenses'
+import expenses from "./expenses";
 
 const router = express.Router();
 
 export default (): express.Router => {
   authentication(router);
   users(router);
-  expenses(router)
+  expenses(router);
   return router;
 };

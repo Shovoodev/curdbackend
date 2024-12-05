@@ -14,7 +14,6 @@ const SignIn = () => {
       },
       body: JSON.stringify(userData) 
     })
-    console.log(userData)
     }
   return (
     <form onSubmit={handleSubmit}>

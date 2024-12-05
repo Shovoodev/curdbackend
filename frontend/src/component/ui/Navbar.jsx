@@ -2,7 +2,7 @@ import { NavLink } from "react-router";
 
 const Navbar = () => {
   return (
-    <div className="flex justify-between p-4 items-center bg-green-300">
+    <div className="flex justify-between p-4 items-center bg-blue-300">
       <div className="flex items-center gap-2">
         <img src="/vite.svg"/> <h1 className="">logo</h1>
       </div>
