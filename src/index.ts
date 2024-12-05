@@ -21,9 +21,6 @@ app.use(morgan("dev"));
 
 app.use("/", router());
 
-app.get("/", (req, res) => {
-  res.send("ok");
-});
 
 app.listen(5500, () => {
   console.log("server running on port ");

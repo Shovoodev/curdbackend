@@ -1,5 +1,6 @@
 import express from "express";
 import { allProducts, createProduct, deleteProduct, updateProductById } from "./../db/expenses";
+
 export const expensesRegister = async (
   req: express.Request,
   res: express.Response
